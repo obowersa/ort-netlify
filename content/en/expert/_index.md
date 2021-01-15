@@ -1,7 +1,6 @@
 ---
 title: Ask An Expert 
 description: Ask an Expert
-type: docs
 menu:
   main:
    weight: 80

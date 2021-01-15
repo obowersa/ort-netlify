@@ -1,0 +1,52 @@
+// HERO
+.header-hero {
+    background-image: url(/images/header.png);
+    background-color: darkslategrey;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 120px;
+    margin-bottom: 0;
+    position: relative;
+  
+    &.bot-bar:after {
+      display: block;
+      margin-bottom: -24px;
+      height: 8px;
+      width: 100%;
+      background-color: transparentize(white, 0.9);
+      content: "";
+    }
+  
+    &.no-sub {
+      h5 {
+        display: none;
+      }
+  
+      h1 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .td-home .header-hero:after {
+    display: none;
+  }
+  
+  .header-hero {
+    background-color: darkslategrey;
+  
+    h5 {
+      margin: 20px 0;
+      line-height: 28px;
+    }
+  }
+
+
+  .flip-nav .td-navbar {
+    background: #676767 !important;
+}
+
+.td-navbar {
+  background: transparent !important;
+}

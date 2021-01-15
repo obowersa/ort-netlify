@@ -1,19 +1,51 @@
 /*
-
-Nothing defined here. The Hugo project that uses this theme can override theme variables by adding a file to:
-
-assets/scss/_variables_project.scss
-
-*/
-/*
-
-Bootstrap variables overrides for theme.
-See https://github.com/twbs/bootstrap/pull/23260
+Add styles or override variables from the theme here.
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i");
 @import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.0.1/dist/font-face.css");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap");
+.header-hero {
+  background-image: url(/images/header.png);
+  background-color: darkslategrey;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 120px;
+  margin-bottom: 0;
+  position: relative; }
+  .header-hero.bot-bar:after {
+    display: block;
+    margin-bottom: -24px;
+    height: 8px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    content: ""; }
+  .header-hero.no-sub h5 {
+    display: none; }
+  .header-hero.no-sub h1 {
+    margin-bottom: 20px; }
+
+.td-home .header-hero:after {
+  display: none; }
+
+.header-hero {
+  background-color: darkslategrey; }
+  .header-hero h5 {
+    margin: 20px 0;
+    line-height: 28px; }
+
+.flip-nav .td-navbar {
+  background: #676767 !important; }
+
+.td-navbar {
+  background: transparent !important; }
+
+/*
+
+Bootstrap variables overrides for theme.
+See https://github.com/twbs/bootstrap/pull/23260
+*/
 @fa-font-path :        "../webfonts";
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
