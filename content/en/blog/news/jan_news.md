@@ -1,7 +1,7 @@
 ---
 date: 2021-01-05
 title: "January 2021 News And Update"
-linkTitle: "January 2021 News And Update"
+summary: January 2021 News And Update
 author: Tracy Ragan
 ---
 

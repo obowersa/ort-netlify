@@ -1,6 +1,7 @@
 ---
 title: Guidelines
-description: Guidelines
+description: Ortelius Community Guidelines
+Summary: Become a Contributor, Open Issues, Participate
 menu:
   main:
    weight: 60

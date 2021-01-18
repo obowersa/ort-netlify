@@ -1,7 +1,7 @@
 ---
 date: 2020-12-29
 title: "Publishing Microservices"
-linkTitle: "Publishing Microservices"
+summary: "Publishing Microservices"
 author: Tracy Ragan
 ---
 

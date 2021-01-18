@@ -1,6 +1,7 @@
 ---
 title: Ask An Expert 
-description: Ask an Expert
+description: Talk to an Expert
+summary: Schedule a Chat
 menu:
   main:
    weight: 80

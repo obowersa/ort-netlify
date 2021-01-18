@@ -1,7 +1,7 @@
 ---
 date: 2020-12-29
 title: "Ortelius An Incubating CDF Project"
-linkTitle: "Ortelius An Incubating CDF Project"
+summary: "Ortelius An Incubating CDF Project"
 author: Tracy Ragan
 ---
 
